@@ -1,13 +1,34 @@
-# Alfaid Sabayo, Portfolio (React + Vite)
+# Alfaid Sabayo | Personal Portfolio
 
-Content: `src/data.js`. Theme: `src/main.jsx`.
+A personal portfolio website built with React and Vite.
 
-## Contact form setup (Web3Forms)
-1. Go to web3forms.com, enter your email, copy the Access Key they send you.
-2. Create a file named `.env` in the project root with one line:
-   `VITE_WEB3FORMS_KEY=paste_your_key_here`
-3. Restart `npm run dev`.
-4. On Vercel: Project Settings, Environment Variables, add the same name and value, then redeploy.
+🌐 **Live Demo:** [View Portfolio](https://portfolio-xi-sage-yegj443rpf.vercel.app/)
 
-## Run
-npm install, then npm run dev. Build: npm run build.
+**Content:** `src/data.js`  
+**Theme:** `src/main.jsx`
+
+## Contact Form Setup (Web3Forms)
+
+1. Visit [Web3Forms](https://web3forms.com/) and get your Access Key.
+2. Create a `.env` file in the project root:
+
+   `VITE_WEB3FORMS_KEY=your_access_key_here`
+
+3. Restart the development server using `npm run dev`.
+4. On Vercel, go to Project Settings → Environment Variables and add the same variable.
+5. Redeploy your project.
+
+**Note:** Never commit your `.env` file or expose private credentials.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
